@@ -1,1 +1,3 @@
 cli: pkgr
+before:
+  - cat packaging/shebang bin/pkgr > bin/pkgr
